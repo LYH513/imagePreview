@@ -18,7 +18,7 @@ const App = () => {
         onChange={handleInputChange}
         style={{ width: '100%', padding: '10px', marginBottom: '20px' }}
       />
-      {/* {url && <LinkPreview url={url} />} */}
+      {url && <LinkPreview url={url} />}
     </div>
   );
 };
